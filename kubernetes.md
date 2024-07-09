@@ -15,4 +15,12 @@ Readiness Probe: Checks if a container is ready to handle requests. If the readi
 
 Both probes help manage container states to improve the reliability and availability of services in Kubernetes.
 
+### Kubeadm vs Kubelet vs Kubectl
+
+Kubeadm : Kubeadm is a tool for bootstrapping a Kubernetes cluster. Helps you set up and configure the cluster.
+
+Kubelet: Kubelet is an agent that runs on each node in a Kubernetes cluster. It ensures that containers are running in a Pod. It's responsible for starting, stopping, and maintaining containers on the node. 
+
+Kubectl: Kubectl is a command-line tool for interacting with the Kubernetes cluster.
+
 
