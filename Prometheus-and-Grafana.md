@@ -20,13 +20,15 @@ Use Case: Monitoring servers.
 
 ### How to setup Node Exporter
 Download and Extract the tar file and run it using the below command
+
 💎 ./node_exporter
+
 Configure Prometheus to Scrape Node Exporter by adding the below configuration to the 'prometheus.yml' file.
 
-scrape_configs:
- -job_name:'node'
- static_configs:
- - targets: ['localhost:9100']
+         scrape_configs:
+          -job_name:'node'
+          static_configs:
+          - targets: ['localhost:9100']
 
 Exporters help Prometheus gather data from different systems and services, making it easier to monitor everything in one place.
 
@@ -40,6 +42,7 @@ Grafana is an open-source tool used for analytics and monitoring. It stands out 
 
 ### How Does Grafana Work?
 Connect Data Sources: Grafana lets you pull data from various sources. Whether it's time-series databases, SQL databases, or even cloud services, Grafana integrates seamlessly.
+
 Create Dashboards: Utilize Grafana's intuitive UI to craft dashboards that highlight the metrics most important to you. Customize and explore data through graphs, charts, and tables.
 
 
