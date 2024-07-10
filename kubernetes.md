@@ -23,4 +23,28 @@ Kubelet: Kubelet is an agent that runs on each node in a Kubernetes cluster. It 
 
 Kubectl: Kubectl is a command-line tool for interacting with the Kubernetes cluster.
 
+### Services in Kubernetes
+
+In Kubernetes, a Service is a method for exposing a network application that is running as one or more Pods in your cluster.
+
+### Service Types
+
+Kubernetes Service types allow you to specify what kind of Service you want.
+
+#### 1. ClusterIP
+
+Exposes the Service on a cluster-internal IP.
+
+#### 2. NodePort
+
+Exposes the Service on each Node's IP at a static port (the NodePort).
+
+#### 3. LoadBalancer
+
+Exposes the Service externally using an external load balancer.
+
+
+
+
+
 
